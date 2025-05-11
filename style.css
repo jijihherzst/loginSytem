@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.frame{
+    border: solid black 2px;
+    width: 70rem;
+    height: 40rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 24px 450px rgba(0, 0, 0, 0.2);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    h3{
+        font-size: 0.7rem;
+        font-family:sans-serif;
+        color: rgb(29, 29, 29);
+        font-weight:500;
+        margin-bottom: 0.7rem;
+    }
+
+    input{
+        border-radius: 0.4rem;
+        border: solid rgb(192, 192, 192) 1px;
+    }
+
+    p{
+        margin-top: 0.3rem;
+        font-family: sans-serif;
+    }
+
+    h1{
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+
+    button{
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        margin-left: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(3, 40, 109);
+        color: white;
+    }
+
+    button:hover{
+        
+    }
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    row-gap: 2rem;
+    max-width: 600px;
+    margin: auto;
+
+    p{
+        font-size: 9px;
+        font-weight: 300;
+        
+    }
+
+    
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    height: 15vh; 
+}
+
+
+input{
+    width: 14rem;
+    height: 2rem;
+}
+
+.registerButton{
+    display: flex;
+    margin-left: 11rem;
+}
+
+.background{
+    
+    width: 45rem;
+    height: 39.9rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-image:url(Screenshot\ 2025-04-23\ 110839.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .blur{
+    width: 38rem;
+    height: 39.9rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(47, 47, 47, 0.8) 100%);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text{
+        margin-top: -3rem;
+    }
+    
+    h1{
+        height: 2.5rem;
+        font-size: 3.2rem;  
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px 5px black;
+    }
+    p{
+        width: 30rem;
+        font-size: 0.6rem;
+        color: rgb(255, 255, 255);
+        margin-top: 1rem;
+        font-family: sans-serif;
+    }
+    }
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    font-size: 0.7rem;
+}
+
+
+
+
+
